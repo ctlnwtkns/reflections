@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+--When a git respository is created, a .git directory appears to track meta-data in the home directory. This is the first step in using git. 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+--The staging area is the intermediary between the working directory and the repository. Files in the working directory must be intentionally added to the staging area before they can be committed to the repository. This helps distinguish between files that are currently being tracked and those that aren't. It also shows which files within the repository have been modified, so as to prepare them for a new commit.
